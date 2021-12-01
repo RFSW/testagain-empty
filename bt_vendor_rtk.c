@@ -72,7 +72,7 @@ bool rtkbt_capture_fw_log = false;
 **  Static Variables
 ******************************************************************************/
 //transfer_type(4 bit) | transfer_interface(4 bit)
-char rtkbt_transtype = 0;
+char rtkbt_transtype = 1;
 static char rtkbt_device_node[DEVICE_NODE_MAX_LEN] = {0};
 
 static const tUSERIAL_CFG userial_H5_cfg =
